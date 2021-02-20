@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\My Computer\\Desktop\\JoJo's\\firebase_ml_vision\\example\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+            "outputFile": "S:\\Gvision\\Gvision\\example\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\My Computer\\.gradle\\caches\\transforms-2\\files-2.1\\ea2a490fed3d9b9fdac24e606b194622\\core-1.1.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\Mean\\.gradle\\caches\\transforms-2\\files-2.1\\ea2a490fed3d9b9fdac24e606b194622\\core-1.1.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

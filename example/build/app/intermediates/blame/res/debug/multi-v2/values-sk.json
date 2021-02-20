@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\My Computer\\Desktop\\JoJo's\\firebase_ml_vision\\example\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
+            "outputFile": "S:\\Gvision\\Gvision\\example\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\My Computer\\.gradle\\caches\\transforms-2\\files-2.1\\ea2a490fed3d9b9fdac24e606b194622\\core-1.1.0\\res\\values-sk\\values-sk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2861",
-                        "endColumns": "100",
-                        "endOffsets": "2957"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\My Computer\\.gradle\\caches\\transforms-2\\files-2.1\\de0798f4add0d931a134d87abe9b0104\\jetified-play-services-base-16.0.1\\res\\values-sk\\values.xml",
+                    "source": "C:\\Users\\Mean\\.gradle\\caches\\transforms-2\\files-2.1\\9612a9f9de7643994177f9c70f9f6120\\jetified-play-services-base-16.0.1\\res\\values-sk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\My Computer\\.gradle\\caches\\transforms-2\\files-2.1\\504d1ae64ee97c9eb2467c448a898163\\jetified-play-services-basement-16.1.0\\res\\values-sk\\values.xml",
+                    "source": "C:\\Users\\Mean\\.gradle\\caches\\transforms-2\\files-2.1\\570616e744f4199d329d1648f7ed2ffc\\jetified-play-services-basement-16.1.0\\res\\values-sk\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -52,6 +35,23 @@
                         "startOffsets": "1262",
                         "endColumns": "197",
                         "endOffsets": "1455"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mean\\.gradle\\caches\\transforms-2\\files-2.1\\ea2a490fed3d9b9fdac24e606b194622\\core-1.1.0\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2861",
+                        "endColumns": "100",
+                        "endOffsets": "2957"
                     }
                 }
             ]

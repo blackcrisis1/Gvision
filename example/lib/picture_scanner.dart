@@ -42,7 +42,7 @@ class _PictureScannerState extends State<PictureScanner> {
     });
 
     final PickedFile pickedImage =
-        await _picker.getImage(source: ImageSource.gallery);
+        await _picker.getImage(source: ImageSource.camera);
     //await _picker.getImage(source: ImageSource.gallery);
     final File imageFile = File(pickedImage.path);
 
@@ -112,6 +112,36 @@ class _PictureScannerState extends State<PictureScanner> {
 
     setState(() {
       _scanResults = results;
+
+      RegExp price_exp = new RegExp(r"[0-9]+\.[0-9][0-9]");
+      RegExp productName_exp = new RegExp(r".*[ก-ฮ].*");
+
+      var price = "";
+      var productName = "";
+      //print(_scanResults.blocks);
+      for (var tb in _scanResults.blocks) {
+        //print(tb.text);
+
+        Iterable<RegExpMatch> price_matches = price_exp.allMatches(tb.text);
+        if (price_matches.length > 0) {
+          for (var pm in price_matches) {
+            price = pm.group(0);
+          }
+        }
+
+        Iterable<RegExpMatch> productName_matches =
+            productName_exp.allMatches(tb.text);
+        if (productName_matches.length > 0) {
+          for (var pm in productName_matches) {
+            if (pm.group(0).length > productName.length) {
+              productName = pm.group(0);
+            }
+          }
+        }
+      }
+
+      print(price);
+      print(productName);
     });
   }
 
