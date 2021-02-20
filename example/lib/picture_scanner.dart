@@ -9,6 +9,7 @@ import 'dart:ui';
 import 'package:firebase_ml_vision/firebase_ml_vision.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:flutter_tts/flutter_tts.dart';
 
 import 'detector_painters.dart';
 
@@ -18,6 +19,14 @@ class PictureScanner extends StatefulWidget {
 }
 
 class _PictureScannerState extends State<PictureScanner> {
+  //-------------------------------- TextToSpeech
+  final FlutterTts flutterTts = FlutterTts();
+  String language = "th-TH";
+  double volume = 1.0;
+  double pitch = 1.0;
+  double rate = 1.0;
+  //-------------------------------
+
   File _imageFile;
   Size _imageSize;
   dynamic _scanResults;
@@ -34,6 +43,23 @@ class _PictureScannerState extends State<PictureScanner> {
   final DocumentTextRecognizer _cloudDocumentRecognizer =
       FirebaseVision.instance.cloudDocumentTextRecognizer();
   final ImagePicker _picker = ImagePicker();
+
+  //-------------------------------- TextToSpeech
+  Future _speak(_newVoiceText) async {
+    await flutterTts.setLanguage(language);
+    await flutterTts.setVolume(volume);
+    await flutterTts.setSpeechRate(rate);
+    await flutterTts.setPitch(pitch);
+    await flutterTts.setVoice({"locale": language});
+
+    if (_newVoiceText != null) {
+      if (_newVoiceText.isNotEmpty) {
+        await flutterTts.awaitSpeakCompletion(true);
+        await flutterTts.speak(_newVoiceText);
+      }
+    }
+  }
+  //-------------------------------
 
   Future<void> _getAndScanImage() async {
     setState(() {
@@ -142,6 +168,8 @@ class _PictureScannerState extends State<PictureScanner> {
 
       print(price);
       print(productName);
+
+      _speak(productName);
     });
   }
 
