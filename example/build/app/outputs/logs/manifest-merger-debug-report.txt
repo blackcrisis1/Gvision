@@ -6,13 +6,14 @@ INJECTED from C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\and
 INJECTED from C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:1:1-42:12
 MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\9b20059a5d3c957b35930a82c28de9f8\jetified-firebase-ml-vision-image-label-model-17.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\830b8f12512b16a7922120a0b7e31b9c\jetified-firebase-ml-vision-face-model-17.0.2\AndroidManifest.xml:2:1-9:12
-MERGED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:e2e] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\e2e\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core_web] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:e2e] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\e2e\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-22:12
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_tts] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\flutter_tts\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:camera] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-10:12
+MERGED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:path_provider] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-ml-vision:20.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\b4ba466b4e568a8c5369bc265ac43939\jetified-firebase-ml-vision-20.0.0\AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\9446f62ed19b32a568acf76ae92df675\play-services-vision-image-label-17.0.2\AndroidManifest.xml:2:1-9:12
@@ -92,12 +93,12 @@ MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:
 MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\9b20059a5d3c957b35930a82c28de9f8\jetified-firebase-ml-vision-image-label-model-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\830b8f12512b16a7922120a0b7e31b9c\jetified-firebase-ml-vision-face-model-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\830b8f12512b16a7922120a0b7e31b9c\jetified-firebase-ml-vision-face-model-17.0.2\AndroidManifest.xml:7:5-20
-MERGED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-20:19
 MERGED from [:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-20:19
+MERGED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\9446f62ed19b32a568acf76ae92df675\play-services-vision-image-label-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\9446f62ed19b32a568acf76ae92df675\play-services-vision-image-label-17.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\cfd4701b87f6ea7f24a7ad3b130cc0b4\play-services-vision-17.0.2\AndroidManifest.xml:7:5-20
@@ -184,20 +185,22 @@ MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:
 MERGED from [com.google.firebase:firebase-ml-vision-image-label-model:17.0.2] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\9b20059a5d3c957b35930a82c28de9f8\jetified-firebase-ml-vision-image-label-model-17.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\830b8f12512b16a7922120a0b7e31b9c\jetified-firebase-ml-vision-face-model-17.0.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\830b8f12512b16a7922120a0b7e31b9c\jetified-firebase-ml-vision-face-model-17.0.2\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:e2e] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\e2e\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:e2e] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\e2e\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core_web] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core_web] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:e2e] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\e2e\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:e2e] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\e2e\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_tts] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\flutter_tts\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_tts] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\flutter_tts\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:camera] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:camera] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-ml-vision:20.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\b4ba466b4e568a8c5369bc265ac43939\jetified-firebase-ml-vision-20.0.0\AndroidManifest.xml:6:5-44
@@ -309,21 +312,15 @@ INJECTED from C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\and
 		ADDED from C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:29:9-35:19
 	android:exported
 		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
-meta-data#com.google.firebase.components:io.flutter.plugins.firebasemlvision.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-	android:value
-		ADDED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-	android:name
-		ADDED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+		ADDED from [:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
 ADDED from [:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
@@ -362,6 +359,12 @@ uses-permission#android.permission.RECORD_AUDIO
 ADDED from [:camera] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-71
 	android:name
 		ADDED from [:camera] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-68
+meta-data#com.google.firebase.components:io.flutter.plugins.firebasemlvision.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:22:5-79
 	android:name

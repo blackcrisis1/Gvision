@@ -18,6 +18,7 @@ dev_dependencies:
   path: ^1.6.2
   path_provider: ^1.6.11
   e2e: ^0.6.1
+  flutter_tts: ^2.1.0
 
 flutter:
   plugin:

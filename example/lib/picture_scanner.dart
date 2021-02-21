@@ -9,6 +9,7 @@ import 'dart:ui';
 import 'package:firebase_ml_vision/firebase_ml_vision.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:flutter_tts/flutter_tts.dart';
 
 import 'detector_painters.dart';
 
@@ -18,6 +19,14 @@ class PictureScanner extends StatefulWidget {
 }
 
 class _PictureScannerState extends State<PictureScanner> {
+  //-------------------------------- TextToSpeech
+  FlutterTts flutterTts = new FlutterTts();
+  String language = "th-TH";
+  double volume = 1.0;
+  double pitch = 1.0;
+  double rate = 1.0;
+  //-------------------------------
+
   File _imageFile;
   Size _imageSize;
   dynamic _scanResults;
@@ -112,8 +121,48 @@ class _PictureScannerState extends State<PictureScanner> {
 
     setState(() {
       _scanResults = results;
+
+      RegExp price_exp = new RegExp(r"[0-9]+\.[0-9][0-9]");
+      RegExp productName_exp = new RegExp(r".*[ก-ฮ].*");
+
+      var price = "";
+      var productName = "";
+      //print(_scanResults.blocks);
+      for (var tb in _scanResults.blocks) {
+        //print(tb.text);
+
+        Iterable<RegExpMatch> price_matches = price_exp.allMatches(tb.text);
+        if (price_matches.length > 0) {
+          for (var pm in price_matches) {
+            price = pm.group(0);
+          }
+        }
+
+        Iterable<RegExpMatch> productName_matches =
+            productName_exp.allMatches(tb.text);
+        if (productName_matches.length > 0) {
+          for (var pm in productName_matches) {
+            if (pm.group(0).length > productName.length) {
+              productName = pm.group(0);
+            }
+          }
+        }
+      }
+      var text_speak = productName + " ราคา " + price + " บาท";
+      print(text_speak);
+      _speak(text_speak);
     });
   }
+
+  //-------------------------------- TextToSpeech
+  Future _speak(text_speak) async {
+    await flutterTts.setLanguage(language);
+    await flutterTts.setVolume(volume);
+    await flutterTts.setSpeechRate(rate);
+    await flutterTts.setPitch(pitch);
+    await flutterTts.speak(text_speak);
+  }
+  //-------------------------------
 
   CustomPaint _buildResults(Size imageSize, dynamic results) {
     CustomPainter painter;
