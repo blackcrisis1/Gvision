@@ -7,6 +7,7 @@ import io.flutter.plugins.camera.CameraPlugin;
 import io.flutter.plugins.firebasemlvision.FirebaseMlVisionPlugin;
 import io.flutter.plugins.imagepicker.ImagePickerPlugin;
 import io.flutter.plugins.pathprovider.PathProviderPlugin;
+import com.tundralabs.fluttertts.FlutterTtsPlugin;
 
 public class MainActivity extends FlutterActivity {
   @Override
@@ -19,5 +20,7 @@ public class MainActivity extends FlutterActivity {
         shimPluginRegistry.registrarFor("io.flutter.plugins.pathprovider.PathProviderPlugin"));
     ImagePickerPlugin.registerWith(
         shimPluginRegistry.registrarFor("io.flutter.plugins.imagepicker.VideoPlayerPlugin"));
+    FlutterTtsPlugin.registerWith(
+        shimPluginRegistry.registrarFor("com.tundralabs.fluttertts.FlutterTtsPlugin"));
   }
 }

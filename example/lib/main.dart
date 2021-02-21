@@ -31,8 +31,8 @@ class _ExampleList extends StatefulWidget {
 class _ExampleListState extends State<_ExampleList> {
   static final List<String> _exampleWidgetNames = <String>[
     '$PictureScanner',
-    '$CameraPreviewScanner',
-    '$MaterialBarcodeScanner',
+    // '$CameraPreviewScanner',
+    // '$MaterialBarcodeScanner',
   ];
 
   @override

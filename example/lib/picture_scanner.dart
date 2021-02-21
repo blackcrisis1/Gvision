@@ -30,6 +30,7 @@ class _PictureScannerState extends State<PictureScanner> {
   File _imageFile;
   Size _imageSize;
   dynamic _scanResults;
+  dynamic _speakResults;
   Detector _currentDetector = Detector.cloudText;
   final BarcodeDetector _barcodeDetector =
       FirebaseVision.instance.barcodeDetector();
@@ -43,6 +44,14 @@ class _PictureScannerState extends State<PictureScanner> {
   final DocumentTextRecognizer _cloudDocumentRecognizer =
       FirebaseVision.instance.cloudDocumentTextRecognizer();
   final ImagePicker _picker = ImagePicker();
+
+  Future _speak(text_speak) async {
+    await flutterTts.setLanguage(language);
+    await flutterTts.setVolume(volume);
+    await flutterTts.setSpeechRate(rate);
+    await flutterTts.setPitch(pitch);
+    await flutterTts.speak(text_speak);
+  }
 
   Future<void> _getAndScanImage() async {
     setState(() {
@@ -148,20 +157,13 @@ class _PictureScannerState extends State<PictureScanner> {
           }
         }
       }
-      var text_speak = productName + " ราคา " + price + " บาท";
-      print(text_speak);
-      _speak(text_speak);
+      _speakResults = productName + " ราคา " + price + " บาท";
+      print(_speakResults);
+      //_speak(_speakResults);
     });
   }
 
   //-------------------------------- TextToSpeech
-  Future _speak(text_speak) async {
-    await flutterTts.setLanguage(language);
-    await flutterTts.setVolume(volume);
-    await flutterTts.setSpeechRate(rate);
-    await flutterTts.setPitch(pitch);
-    await flutterTts.speak(text_speak);
-  }
   //-------------------------------
 
   CustomPaint _buildResults(Size imageSize, dynamic results) {
@@ -192,6 +194,8 @@ class _PictureScannerState extends State<PictureScanner> {
       default:
         break;
     }
+
+    _speak(_speakResults);
 
     return CustomPaint(
       painter: painter,
@@ -226,44 +230,44 @@ class _PictureScannerState extends State<PictureScanner> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Picture Scanner'),
-        actions: <Widget>[
-          PopupMenuButton<Detector>(
-            onSelected: (Detector result) {
-              _currentDetector = result;
-              if (_imageFile != null) _scanImage(_imageFile);
-            },
-            itemBuilder: (BuildContext context) => <PopupMenuEntry<Detector>>[
-              const PopupMenuItem<Detector>(
-                child: Text('Detect Barcode'),
-                value: Detector.barcode,
-              ),
-              const PopupMenuItem<Detector>(
-                child: Text('Detect Face'),
-                value: Detector.face,
-              ),
-              const PopupMenuItem<Detector>(
-                child: Text('Detect Label'),
-                value: Detector.label,
-              ),
-              const PopupMenuItem<Detector>(
-                child: Text('Detect Cloud Label'),
-                value: Detector.cloudLabel,
-              ),
-              const PopupMenuItem<Detector>(
-                child: Text('Detect Text'),
-                value: Detector.text,
-              ),
-              const PopupMenuItem<Detector>(
-                child: Text('Detect Cloud Text'),
-                value: Detector.cloudText,
-              ),
-              const PopupMenuItem<Detector>(
-                child: Text('Detect Document Text'),
-                value: Detector.cloudDocumentText,
-              ),
-            ],
-          ),
-        ],
+        // actions: <Widget>[
+        //   PopupMenuButton<Detector>(
+        //     onSelected: (Detector result) {
+        //       _currentDetector = result;
+        //       if (_imageFile != null) _scanImage(_imageFile);
+        //     },
+        //     itemBuilder: (BuildContext context) => <PopupMenuEntry<Detector>>[
+        //       const PopupMenuItem<Detector>(
+        //         child: Text('Detect Barcode'),
+        //         value: Detector.barcode,
+        //       ),
+        //       const PopupMenuItem<Detector>(
+        //         child: Text('Detect Face'),
+        //         value: Detector.face,
+        //       ),
+        //       const PopupMenuItem<Detector>(
+        //         child: Text('Detect Label'),
+        //         value: Detector.label,
+        //       ),
+        //       const PopupMenuItem<Detector>(
+        //         child: Text('Detect Cloud Label'),
+        //         value: Detector.cloudLabel,
+        //       ),
+        //       const PopupMenuItem<Detector>(
+        //         child: Text('Detect Text'),
+        //         value: Detector.text,
+        //       ),
+        //       const PopupMenuItem<Detector>(
+        //         child: Text('Detect Cloud Text'),
+        //         value: Detector.cloudText,
+        //       ),
+        //       const PopupMenuItem<Detector>(
+        //         child: Text('Detect Document Text'),
+        //         value: Detector.cloudDocumentText,
+        //       ),
+        //     ],
+        //   ),
+        // ],
       ),
       body: _imageFile == null
           ? const Center(child: Text('No image selected.'))
