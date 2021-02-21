@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\My Computer\\Desktop\\JoJo's\\firebase_ml_vision\\example\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rUS\\values-es-rUS.xml",
+            "outputFile": "E:\\DropJo\\Gvision\\example\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rUS\\values-es-rUS.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\My Computer\\.gradle\\caches\\transforms-2\\files-2.1\\504d1ae64ee97c9eb2467c448a898163\\jetified-play-services-basement-16.1.0\\res\\values-es-rUS\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "204",
-                        "endOffsets": "455"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1298",
-                        "endColumns": "204",
-                        "endOffsets": "1498"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\My Computer\\.gradle\\caches\\transforms-2\\files-2.1\\de0798f4add0d931a134d87abe9b0104\\jetified-play-services-base-16.0.1\\res\\values-es-rUS\\values.xml",
+                    "source": "C:\\Users\\apisa\\.gradle\\caches\\transforms-2\\files-2.1\\4c894ca122a936144a8fa0841559b9ea\\jetified-play-services-base-16.0.1\\res\\values-es-rUS\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\My Computer\\.gradle\\caches\\transforms-2\\files-2.1\\ea2a490fed3d9b9fdac24e606b194622\\core-1.1.0\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "source": "C:\\Users\\apisa\\.gradle\\caches\\transforms-2\\files-2.1\\ea2a490fed3d9b9fdac24e606b194622\\core-1.1.0\\res\\values-es-rUS\\values-es-rUS.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -52,6 +35,23 @@
                         "startOffsets": "2923",
                         "endColumns": "100",
                         "endOffsets": "3019"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\apisa\\.gradle\\caches\\transforms-2\\files-2.1\\1f8556b378d980dbedf88a23c9f5b83e\\jetified-play-services-basement-16.1.0\\res\\values-es-rUS\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "204",
+                        "endOffsets": "455"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1298",
+                        "endColumns": "204",
+                        "endOffsets": "1498"
                     }
                 }
             ]

@@ -19,6 +19,12 @@ dev_dependencies:
   path_provider: ^1.6.11
   e2e: ^0.6.1
   flutter_tts: ^2.1.0
+  flutter_launcher_icons: ^0.8.1 
+
+flutter_icons:
+    image_path: "assets/Icon.png"
+    ios: true
+    android: true
 
 flutter:
   plugin:

@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml
+8-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml
+9-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml
 10
 11    <!--
 12         The INTERNET permission is required for development. Specifically,
@@ -16,29 +16,29 @@
 14         to allow setting breakpoints, to provide hot reload, etc.
 15    -->
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:8:5-66
-16-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:8:22-64
+16-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:8:5-66
+16-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:8:22-64
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-17-->[:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
-17-->[:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+17-->[:image_picker] E:\DropJo\Gvision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+17-->[:image_picker] E:\DropJo\Gvision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
 18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-18-->[:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
-18-->[:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+18-->[:image_picker] E:\DropJo\Gvision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+18-->[:image_picker] E:\DropJo\Gvision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
 19    <uses-permission android:name="android.permission.CAMERA" />
-19-->[:camera] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-65
-19-->[:camera] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-62
+19-->[:camera] E:\DropJo\Gvision\example\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-65
+19-->[:camera] E:\DropJo\Gvision\example\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-62
 20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-20-->[:camera] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-71
-20-->[:camera] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-68
+20-->[:camera] E:\DropJo\Gvision\example\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-71
+20-->[:camera] E:\DropJo\Gvision\example\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-68
 21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-21-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:22:5-79
-21-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:22:22-76
+21-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:22:5-79
+21-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:22:22-76
 22    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-22-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:24:5-68
-22-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:24:22-65
+22-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:24:5-68
+22-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:24:22-65
 23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-23-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:5-82
-23-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:22-79
+23-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:5-82
+23-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:22-79
 24    <!--
 25 io.flutter.app.FlutterApplication is an android.app.Application that
 26         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -47,148 +47,148 @@
 29         FlutterApplication and put your custom class here.
 30    -->
 31    <application
-31-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:15:5-41:19
+31-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:15:5-41:19
 32        android:name="io.flutter.app.FlutterApplication"
-32-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:16:9-57
+32-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:16:9-57
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-33-->[androidx.core:core:1.1.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\ea2a490fed3d9b9fdac24e606b194622\core-1.1.0\AndroidManifest.xml:24:18-86
+33-->[androidx.core:core:1.1.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\ea2a490fed3d9b9fdac24e606b194622\core-1.1.0\AndroidManifest.xml:24:18-86
 34        android:debuggable="true"
 35        android:icon="@mipmap/ic_launcher"
-35-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:18:9-43
-36        android:label="firebase_ml_vision_example" >
-36-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:17:9-51
+35-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:18:9-43
+36        android:label="BlindOCR" >
+36-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:17:9-33
 37        <activity
-37-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:19:9-30:20
+37-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:19:9-30:20
 38            android:name="io.flutter.plugins.firebasemlvisionexample.MainActivity"
-38-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:20:13-41
+38-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:20:13-41
 39            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
-39-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:23:13-137
+39-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:23:13-137
 40            android:hardwareAccelerated="true"
-40-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:24:13-47
+40-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:24:13-47
 41            android:launchMode="singleTop"
-41-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:21:13-43
+41-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:21:13-43
 42            android:theme="@style/LaunchTheme"
-42-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:22:13-47
+42-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:22:13-47
 43            android:windowSoftInputMode="adjustResize" >
-43-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:25:13-55
+43-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:25:13-55
 44            <intent-filter>
-44-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:26:13-29:29
+44-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:26:13-29:29
 45                <action android:name="android.intent.action.MAIN" />
-45-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:27:17-68
-45-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:27:25-66
+45-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:27:17-68
+45-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:27:25-66
 46
 47                <category android:name="android.intent.category.LAUNCHER" />
-47-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:28:17-76
-47-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:28:27-74
+47-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:28:17-76
+47-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:28:27-74
 48            </intent-filter>
 49        </activity>
 50        <activity
-50-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:31:9-37:20
+50-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:31:9-37:20
 51            android:name="io.flutter.plugins.firebasemlvisionexample.EmbeddingV1Activity"
-51-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:32:13-48
+51-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:32:13-48
 52            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
-52-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:34:13-137
+52-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:34:13-137
 53            android:hardwareAccelerated="true"
-53-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:35:13-47
+53-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:35:13-47
 54            android:theme="@style/LaunchTheme"
-54-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:33:13-47
+54-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:33:13-47
 55            android:windowSoftInputMode="adjustResize" >
-55-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:36:13-55
+55-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:36:13-55
 56        </activity>
 57
 58        <meta-data
-58-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:38:11-40:57
+58-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:38:11-40:57
 59            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
-59-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:39:13-70
+59-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:39:13-70
 60            android:value="ocr, face, barcode, label" />
-60-->C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\android\app\src\main\AndroidManifest.xml:40:13-54
+60-->E:\DropJo\Gvision\example\android\app\src\main\AndroidManifest.xml:40:13-54
 61
 62        <service
-62-->[:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+62-->[:firebase_core] E:\DropJo\Gvision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 63            android:name="com.google.firebase.components.ComponentDiscoveryService"
-63-->[:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+63-->[:firebase_core] E:\DropJo\Gvision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
 64            android:exported="false" >
-64-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:31:13-37
+64-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:31:13-37
 65            <meta-data
-65-->[:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+65-->[:firebase_core] E:\DropJo\Gvision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
-66-->[:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+66-->[:firebase_core] E:\DropJo\Gvision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
 67                android:value="com.google.firebase.components.ComponentRegistrar" />
-67-->[:firebase_core] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+67-->[:firebase_core] E:\DropJo\Gvision\example\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 68            <meta-data
-68-->[:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+68-->[:firebase_ml_vision] E:\DropJo\Gvision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 69                android:name="com.google.firebase.components:io.flutter.plugins.firebasemlvision.FlutterFirebaseAppRegistrar"
-69-->[:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+69-->[:firebase_ml_vision] E:\DropJo\Gvision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
 70                android:value="com.google.firebase.components.ComponentRegistrar" />
-70-->[:firebase_ml_vision] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+70-->[:firebase_ml_vision] E:\DropJo\Gvision\example\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 71            <meta-data
-71-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:32:13-34:85
+71-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:32:13-34:85
 72                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-72-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:33:17-96
+72-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:33:17-96
 73                android:value="com.google.firebase.components.ComponentRegistrar" />
-73-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:34:17-82
+73-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:34:17-82
 74        </service>
 75
 76        <provider
-76-->[:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+76-->[:image_picker] E:\DropJo\Gvision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
 77            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-77-->[:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+77-->[:image_picker] E:\DropJo\Gvision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
 78            android:authorities="io.flutter.plugins.firebasemlvisionexample.flutter.image_provider"
-78-->[:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+78-->[:image_picker] E:\DropJo\Gvision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
 79            android:exported="false"
-79-->[:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+79-->[:image_picker] E:\DropJo\Gvision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
 80            android:grantUriPermissions="true" >
-80-->[:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+80-->[:image_picker] E:\DropJo\Gvision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
 81            <meta-data
-81-->[:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+81-->[:image_picker] E:\DropJo\Gvision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
 82                android:name="android.support.FILE_PROVIDER_PATHS"
-82-->[:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+82-->[:image_picker] E:\DropJo\Gvision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
 83                android:resource="@xml/flutter_image_picker_file_paths" />
-83-->[:image_picker] C:\Users\My Computer\Desktop\JoJo's\firebase_ml_vision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+83-->[:image_picker] E:\DropJo\Gvision\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
 84        </provider>
 85
 86        <receiver
-86-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:37:9-44:20
+86-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:37:9-44:20
 87            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-87-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:38:13-78
+87-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:38:13-78
 88            android:exported="true"
-88-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:39:13-36
+88-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:39:13-36
 89            android:permission="com.google.android.c2dm.permission.SEND" >
-89-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:40:13-73
+89-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:40:13-73
 90            <intent-filter>
-90-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:41:13-43:29
+90-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:41:13-43:29
 91                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-91-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:17-81
-91-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\c67e26bc0e937741a33e08772e1b5864\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:25-78
+91-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:17-81
+91-->[com.google.firebase:firebase-iid:18.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\79b8c28424a5768cfab7d7156bfcb7c1\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:25-78
 92            </intent-filter>
 93        </receiver>
 94
 95        <activity
-95-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\de0798f4add0d931a134d87abe9b0104\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+95-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\4c894ca122a936144a8fa0841559b9ea\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
 96            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-96-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\de0798f4add0d931a134d87abe9b0104\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+96-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\4c894ca122a936144a8fa0841559b9ea\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
 97            android:exported="false"
-97-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\de0798f4add0d931a134d87abe9b0104\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+97-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\4c894ca122a936144a8fa0841559b9ea\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
 98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-98-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\de0798f4add0d931a134d87abe9b0104\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+98-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\4c894ca122a936144a8fa0841559b9ea\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
 99
 100        <provider
-100-->[com.google.firebase:firebase-common:17.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\2630df6fd5991a801894a6f6a6b7fcfb\jetified-firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+100-->[com.google.firebase:firebase-common:17.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\29a9f61752264ba9fc1793095c61a80f\jetified-firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
 101            android:name="com.google.firebase.provider.FirebaseInitProvider"
-101-->[com.google.firebase:firebase-common:17.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\2630df6fd5991a801894a6f6a6b7fcfb\jetified-firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+101-->[com.google.firebase:firebase-common:17.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\29a9f61752264ba9fc1793095c61a80f\jetified-firebase-common-17.0.0\AndroidManifest.xml:13:13-77
 102            android:authorities="io.flutter.plugins.firebasemlvisionexample.firebaseinitprovider"
-102-->[com.google.firebase:firebase-common:17.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\2630df6fd5991a801894a6f6a6b7fcfb\jetified-firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+102-->[com.google.firebase:firebase-common:17.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\29a9f61752264ba9fc1793095c61a80f\jetified-firebase-common-17.0.0\AndroidManifest.xml:14:13-72
 103            android:exported="false"
-103-->[com.google.firebase:firebase-common:17.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\2630df6fd5991a801894a6f6a6b7fcfb\jetified-firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+103-->[com.google.firebase:firebase-common:17.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\29a9f61752264ba9fc1793095c61a80f\jetified-firebase-common-17.0.0\AndroidManifest.xml:15:13-37
 104            android:initOrder="100" />
-104-->[com.google.firebase:firebase-common:17.0.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\2630df6fd5991a801894a6f6a6b7fcfb\jetified-firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+104-->[com.google.firebase:firebase-common:17.0.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\29a9f61752264ba9fc1793095c61a80f\jetified-firebase-common-17.0.0\AndroidManifest.xml:16:13-36
 105
 106        <meta-data
-106-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\504d1ae64ee97c9eb2467c448a898163\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+106-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\1f8556b378d980dbedf88a23c9f5b83e\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
 107            android:name="com.google.android.gms.version"
-107-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\504d1ae64ee97c9eb2467c448a898163\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+107-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\1f8556b378d980dbedf88a23c9f5b83e\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
 108            android:value="@integer/google_play_services_version" />
-108-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\My Computer\.gradle\caches\transforms-2\files-2.1\504d1ae64ee97c9eb2467c448a898163\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+108-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\apisa\.gradle\caches\transforms-2\files-2.1\1f8556b378d980dbedf88a23c9f5b83e\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
 109    </application>
 110
 111</manifest>
