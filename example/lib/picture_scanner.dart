@@ -14,8 +14,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'detector_painters.dart';
 
 class PictureScanner extends StatefulWidget {
+  final String fileimg;
+  PictureScanner({Key key, @required this.fileimg}) : super(key: key);
   @override
-  State<StatefulWidget> createState() => _PictureScannerState();
+  State<StatefulWidget> createState() => _PictureScannerState(fileimg);
 }
 
 class _PictureScannerState extends State<PictureScanner> {
@@ -26,7 +28,10 @@ class _PictureScannerState extends State<PictureScanner> {
   double pitch = 1.0;
   double rate = 1.0;
   //-------------------------------
-
+  String pathimg = "";
+  _PictureScannerState(fileimg) {
+    pathimg = fileimg;
+  }
   File _imageFile;
   Size _imageSize;
   dynamic _scanResults;
@@ -59,10 +64,11 @@ class _PictureScannerState extends State<PictureScanner> {
       _imageSize = null;
     });
 
-    final PickedFile pickedImage =
-        await _picker.getImage(source: ImageSource.gallery);
+    // final PickedFile pickedImage =
+    //     await _picker.getImage(source: ImageSource.gallery);
     //await _picker.getImage(source: ImageSource.gallery);
-    final File imageFile = File(pickedImage.path);
+    final File imageFile = File(pathimg);
+    // final File imageFile = File(pickedImage.path);
 
     if (imageFile != null) {
       _getImageSize(imageFile);
@@ -159,6 +165,7 @@ class _PictureScannerState extends State<PictureScanner> {
       }
       _speakResults = productName + " ราคา " + price + " บาท";
       print(_speakResults);
+      print(pathimg);
       //_speak(_speakResults);
     });
   }
@@ -269,15 +276,21 @@ class _PictureScannerState extends State<PictureScanner> {
         //   ),
         // ],
       ),
-      body: _imageFile == null
-          ? const Center(child: Text('No image selected.'))
-          : _buildImage(),
+      body: _imageFile != null
+          ? _buildImage()
+          : const Center(child: Text('No image selected.')),
       floatingActionButton: FloatingActionButton(
         onPressed: _getAndScanImage,
         tooltip: 'Pick Image',
         child: const Icon(Icons.add_a_photo),
       ),
     );
+    // return Scaffold(
+    //     appBar: AppBar(
+    //       title: const Text('Picture Scanner'),
+    //     ),
+    //     body: GestureDetector(
+    //         onDoubleTap: () => {_buildImage(), _getAndScanImage}));
   }
 
   @override
