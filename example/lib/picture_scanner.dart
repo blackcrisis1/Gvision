@@ -278,10 +278,11 @@ class _PictureScannerState extends State<PictureScanner> {
       body: _imageFile == null
           ? GestureDetector(onDoubleTap: () => _getAndScanImage.call())
           : _buildImage(),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _getAndScanImage,
-        tooltip: 'Pick Image',
-        child: const Icon(Icons.add_a_photo),
+      floatingActionButton: ElevatedButton(
+        onPressed: () {
+          Navigator.pop(context);
+        },
+        child: Text("ย้อนกลับ"),
       ),
     );
 

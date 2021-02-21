@@ -150,15 +150,22 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       mainAxisSize: MainAxisSize.max,
       children: <Widget>[
-        IconButton(
-          icon: const Icon(Icons.camera_alt),
-          color: Colors.blue,
-          onPressed: controller != null &&
-                  controller.value.isInitialized &&
-                  !controller.value.isRecordingVideo
-              ? onTakePictureButtonPressed
-              : null,
-        ),
+        ElevatedButton(
+            onPressed: controller != null &&
+                    controller.value.isInitialized &&
+                    !controller.value.isRecordingVideo
+                ? onTakePictureButtonPressed
+                : null,
+            child: Text("ถ่ายรูป"))
+        // IconButton(
+        //   icon: const Icon(Icons.camera_alt),
+        //   color: Colors.blue,
+        //   onPressed: controller != null &&
+        //           controller.value.isInitialized &&
+        //           !controller.value.isRecordingVideo
+        //       ? onTakePictureButtonPressed
+        //       : null,
+        // ),
       ],
     );
   }
