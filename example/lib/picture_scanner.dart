@@ -68,7 +68,7 @@ class _PictureScannerState extends State<PictureScanner> {
     //     await _picker.getImage(source: ImageSource.gallery);
     //await _picker.getImage(source: ImageSource.gallery);
     final File imageFile = File(pathimg);
-    // final File imageFile = File(pickedImage.path);
+    //final File imageFile = File(pickedImage.path);
 
     if (imageFile != null) {
       _getImageSize(imageFile);
@@ -166,6 +166,7 @@ class _PictureScannerState extends State<PictureScanner> {
       _speakResults = productName + " ราคา " + price + " บาท";
       print(_speakResults);
       print(pathimg);
+      _speak(_speakResults);
       //_speak(_speakResults);
     });
   }
@@ -201,8 +202,6 @@ class _PictureScannerState extends State<PictureScanner> {
       default:
         break;
     }
-
-    _speak(_speakResults);
 
     return CustomPaint(
       painter: painter,
@@ -276,21 +275,21 @@ class _PictureScannerState extends State<PictureScanner> {
         //   ),
         // ],
       ),
-      body: _imageFile != null
-          ? _buildImage()
-          : const Center(child: Text('No image selected.')),
+      body: _imageFile == null
+          ? GestureDetector(onDoubleTap: () => _getAndScanImage.call())
+          : _buildImage(),
       floatingActionButton: FloatingActionButton(
         onPressed: _getAndScanImage,
         tooltip: 'Pick Image',
         child: const Icon(Icons.add_a_photo),
       ),
     );
+
     // return Scaffold(
     //     appBar: AppBar(
     //       title: const Text('Picture Scanner'),
     //     ),
-    //     body: GestureDetector(
-    //         onDoubleTap: () => {_buildImage(), _getAndScanImage}));
+    //     body: GestureDetector(onDoubleTap: () => _getAndScanImage.call()));
   }
 
   @override
