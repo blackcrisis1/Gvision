@@ -29,6 +29,12 @@ dev_dependencies:
   test: any
   path: ^1.6.2
   path_provider: ^1.6.11
+  flutter_launcher_icons: ^0.8.1 
+
+flutter_icons:
+    image_path: "assets/Icon.png"
+    ios: true
+    android: true
 
 flutter:
   uses-material-design: true
