@@ -54,7 +54,6 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
     await flutterTts.setVolume(volume);
     await flutterTts.setSpeechRate(rate);
     await flutterTts.setPitch(pitch);
-    await flutterTts.speak("แตะสองครั้งเพื่อดำเนินการต่อ");
   }
 
   @override
@@ -99,37 +98,69 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
       appBar: AppBar(
         title: const Text('Camera example'),
       ),
-      body: Column(
-        children: <Widget>[
-          Expanded(
-            child: Container(
-              child: Padding(
-                padding: const EdgeInsets.all(1.0),
-                child: Center(
-                  child: _cameraPreviewWidget(),
-                ),
+      body: Center(
+        child: GestureDetector(
+          onDoubleTap: controller != null &&
+                  controller.value.isInitialized &&
+                  !controller.value.isRecordingVideo
+              ? onTakePictureButtonPressed
+              : null,
+          child: Container(
+            child: Padding(
+              padding: const EdgeInsets.all(1.0),
+              child: Center(
+                child: _cameraPreviewWidget(),
               ),
-              decoration: BoxDecoration(
-                color: Colors.black,
-                border: Border.all(
-                  color: controller != null && controller.value.isRecordingVideo
-                      ? Colors.redAccent
-                      : Colors.grey,
-                  width: 3.0,
-                ),
+            ),
+            decoration: BoxDecoration(
+              color: Colors.black,
+              border: Border.all(
+                color: controller != null && controller.value.isRecordingVideo
+                    ? Colors.redAccent
+                    : Colors.grey,
+                width: 3.0,
               ),
             ),
           ),
-          _captureControlRowWidget(),
-          Padding(
-            padding: const EdgeInsets.all(5.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-            ),
-          ),
-        ],
+        ),
       ),
     );
+    // return Scaffold(
+    //   key: _scaffoldKey,
+    //   appBar: AppBar(
+    //     title: const Text('Camera example'),
+    //   ),
+    //   body: Column(
+    //     children: <Widget>[
+    //       Expanded(
+    //         child: Container(
+    //           child: Padding(
+    //             padding: const EdgeInsets.all(1.0),
+    //             child: Center(
+    //               child: _cameraPreviewWidget(),
+    //             ),
+    //           ),
+    //           decoration: BoxDecoration(
+    //             color: Colors.black,
+    //             border: Border.all(
+    //               color: controller != null && controller.value.isRecordingVideo
+    //                   ? Colors.redAccent
+    //                   : Colors.grey,
+    //               width: 3.0,
+    //             ),
+    //           ),
+    //         ),
+    //       ),
+    //       _captureControlRowWidget(),
+    //       Padding(
+    //         padding: const EdgeInsets.all(5.0),
+    //         child: Row(
+    //           mainAxisAlignment: MainAxisAlignment.start,
+    //         ),
+    //       ),
+    //     ],
+    //   ),
+    // );
   }
 
   /// Display the preview from the camera (or a message if the preview is not available).
@@ -149,9 +180,17 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       mainAxisSize: MainAxisSize.max,
+      // children: <Widget>[
+      //   ElevatedButton(
+      //       onPressed: controller != null &&
+      //               controller.value.isInitialized &&
+      //               !controller.value.isRecordingVideo
+      //           ? onTakePictureButtonPressed
+      //           : null,
+      //       child: Text("ถ่ายรูป"))
       children: <Widget>[
-        ElevatedButton(
-            onPressed: controller != null &&
+        GestureDetector(
+            onDoubleTap: controller != null &&
                     controller.value.isInitialized &&
                     !controller.value.isRecordingVideo
                 ? onTakePictureButtonPressed

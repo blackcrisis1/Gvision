@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\My Computer\\Desktop\\JoJo's\\firebase_ml_vision\\example\\build\\flutter_tts\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-is\\values-is.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\My Computer\\.gradle\\caches\\transforms-2\\files-2.1\\ea2a490fed3d9b9fdac24e606b194622\\core-1.1.0\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\My Computer\\Desktop\\JoJo's\\firebase_ml_vision\\example\\build\\flutter_tts\\intermediates\\res\\merged\\release\\values-is\\values-is.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\My Computer\\.gradle\\caches\\transforms-2\\files-2.1\\ea2a490fed3d9b9fdac24e606b194622\\core-1.1.0\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

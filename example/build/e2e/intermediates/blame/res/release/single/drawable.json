@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\My Computer\\Desktop\\JoJo's\\firebase_ml_vision\\example\\build\\e2e\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\My Computer\\.gradle\\caches\\transforms-2\\files-2.1\\ea2a490fed3d9b9fdac24e606b194622\\core-1.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\My Computer\\Desktop\\JoJo's\\firebase_ml_vision\\example\\build\\e2e\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\My Computer\\.gradle\\caches\\transforms-2\\files-2.1\\ea2a490fed3d9b9fdac24e606b194622\\core-1.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\My Computer\\Desktop\\JoJo's\\firebase_ml_vision\\example\\build\\e2e\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\My Computer\\.gradle\\caches\\transforms-2\\files-2.1\\ea2a490fed3d9b9fdac24e606b194622\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\My Computer\\Desktop\\JoJo's\\firebase_ml_vision\\example\\build\\e2e\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\My Computer\\.gradle\\caches\\transforms-2\\files-2.1\\ea2a490fed3d9b9fdac24e606b194622\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
+    }
+]

@@ -108,66 +108,72 @@ class _PictureScannerState extends State<PictureScanner> {
         FirebaseVisionImage.fromFile(imageFile);
 
     dynamic results;
-    switch (_currentDetector) {
-      case Detector.barcode:
-        results = await _barcodeDetector.detectInImage(visionImage);
-        break;
-      case Detector.face:
-        results = await _faceDetector.processImage(visionImage);
-        break;
-      case Detector.label:
-        results = await _imageLabeler.processImage(visionImage);
-        break;
-      case Detector.cloudLabel:
-        results = await _cloudImageLabeler.processImage(visionImage);
-        break;
-      case Detector.text:
-        results = await _recognizer.processImage(visionImage);
-        break;
-      case Detector.cloudText:
-        results = await _cloudRecognizer.processImage(visionImage);
-        break;
-      case Detector.cloudDocumentText:
-        results = await _cloudDocumentRecognizer.processImage(visionImage);
-        break;
-      default:
-        return;
+    try {
+      switch (_currentDetector) {
+        case Detector.barcode:
+          results = await _barcodeDetector.detectInImage(visionImage);
+          break;
+        case Detector.face:
+          results = await _faceDetector.processImage(visionImage);
+          break;
+        case Detector.label:
+          results = await _imageLabeler.processImage(visionImage);
+          break;
+        case Detector.cloudLabel:
+          results = await _cloudImageLabeler.processImage(visionImage);
+          break;
+        case Detector.text:
+          results = await _recognizer.processImage(visionImage);
+          break;
+        case Detector.cloudText:
+          results = await _cloudRecognizer.processImage(visionImage);
+          break;
+        case Detector.cloudDocumentText:
+          results = await _cloudDocumentRecognizer.processImage(visionImage);
+          break;
+        default:
+          return;
+      }
+    } catch (e) {
+      print(e);
     }
 
     setState(() {
-      _scanResults = results;
+      if (results != null) {
+        _scanResults = results;
 
-      RegExp price_exp = new RegExp(r"[0-9]+\.[0-9][0-9]");
-      RegExp productName_exp = new RegExp(r".*[ก-ฮ].*");
+        RegExp price_exp = new RegExp(r"[0-9]+\.[0-9][0-9]");
+        RegExp productName_exp = new RegExp(r".*[ก-ฮ].*");
 
-      var price = "";
-      var productName = "";
-      //print(_scanResults.blocks);
-      for (var tb in _scanResults.blocks) {
-        //print(tb.text);
+        var price = "";
+        var productName = "";
+        //print(_scanResults.blocks);
+        for (var tb in _scanResults.blocks) {
+          //print(tb.text);
 
-        Iterable<RegExpMatch> price_matches = price_exp.allMatches(tb.text);
-        if (price_matches.length > 0) {
-          for (var pm in price_matches) {
-            price = pm.group(0);
+          Iterable<RegExpMatch> price_matches = price_exp.allMatches(tb.text);
+          if (price_matches.length > 0) {
+            for (var pm in price_matches) {
+              price = pm.group(0);
+            }
           }
-        }
 
-        Iterable<RegExpMatch> productName_matches =
-            productName_exp.allMatches(tb.text);
-        if (productName_matches.length > 0) {
-          for (var pm in productName_matches) {
-            if (pm.group(0).length > productName.length) {
-              productName = pm.group(0);
+          Iterable<RegExpMatch> productName_matches =
+              productName_exp.allMatches(tb.text);
+          if (productName_matches.length > 0) {
+            for (var pm in productName_matches) {
+              if (pm.group(0).length > productName.length) {
+                productName = pm.group(0);
+              }
             }
           }
         }
+        _speakResults = productName + " ราคา " + price + " บาท";
+        print(_speakResults);
+        print(pathimg);
+        _speak(_speakResults);
+        //_speak(_speakResults);
       }
-      _speakResults = productName + " ราคา " + price + " บาท";
-      print(_speakResults);
-      print(pathimg);
-      _speak(_speakResults);
-      //_speak(_speakResults);
     });
   }
 
@@ -177,30 +183,34 @@ class _PictureScannerState extends State<PictureScanner> {
   CustomPaint _buildResults(Size imageSize, dynamic results) {
     CustomPainter painter;
 
-    switch (_currentDetector) {
-      case Detector.barcode:
-        painter = BarcodeDetectorPainter(_imageSize, results);
-        break;
-      case Detector.face:
-        painter = FaceDetectorPainter(_imageSize, results);
-        break;
-      case Detector.label:
-        painter = LabelDetectorPainter(_imageSize, results);
-        break;
-      case Detector.cloudLabel:
-        painter = LabelDetectorPainter(_imageSize, results);
-        break;
-      case Detector.text:
-        painter = TextDetectorPainter(_imageSize, results);
-        break;
-      case Detector.cloudText:
-        painter = TextDetectorPainter(_imageSize, results);
-        break;
-      case Detector.cloudDocumentText:
-        painter = DocumentTextDetectorPainter(_imageSize, results);
-        break;
-      default:
-        break;
+    try {
+      switch (_currentDetector) {
+        case Detector.barcode:
+          painter = BarcodeDetectorPainter(_imageSize, results);
+          break;
+        case Detector.face:
+          painter = FaceDetectorPainter(_imageSize, results);
+          break;
+        case Detector.label:
+          painter = LabelDetectorPainter(_imageSize, results);
+          break;
+        case Detector.cloudLabel:
+          painter = LabelDetectorPainter(_imageSize, results);
+          break;
+        case Detector.text:
+          painter = TextDetectorPainter(_imageSize, results);
+          break;
+        case Detector.cloudText:
+          painter = TextDetectorPainter(_imageSize, results);
+          break;
+        case Detector.cloudDocumentText:
+          painter = DocumentTextDetectorPainter(_imageSize, results);
+          break;
+        default:
+          break;
+      }
+    } catch (e) {
+      print(e);
     }
 
     return CustomPaint(
@@ -208,31 +218,42 @@ class _PictureScannerState extends State<PictureScanner> {
     );
   }
 
+  // Future<void> eiei() {
+  //   setState(() {
+  //     _speak("แตะหน้าจอสองครั้งเพื่อย้อนกลับ");
+  //   });
+  // }
+
   Widget _buildImage() {
-    return Container(
-      constraints: const BoxConstraints.expand(),
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: Image.file(_imageFile).image,
-          fit: BoxFit.scaleDown,
+    _speak("แตะหน้าจอสองครั้งเพื่อย้อนกลับ");
+    return GestureDetector(
+      onDoubleTap: () => Navigator.pop(context),
+      child: Container(
+        constraints: const BoxConstraints.expand(),
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: Image.file(_imageFile).image,
+            fit: BoxFit.scaleDown,
+          ),
         ),
-      ),
-      child: _imageSize == null || _scanResults == null
-          ? const Center(
-              child: Text(
-                'Scanning...',
-                style: TextStyle(
-                  color: Colors.green,
-                  fontSize: 30.0,
+        child: _imageSize == null || _scanResults == null
+            ? const Center(
+                child: Text(
+                  'Scanning...',
+                  style: TextStyle(
+                    color: Colors.green,
+                    fontSize: 30.0,
+                  ),
                 ),
-              ),
-            )
-          : _buildResults(_imageSize, _scanResults),
+              )
+            : _buildResults(_imageSize, _scanResults),
+      ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
+    _getAndScanImage.call();
     return Scaffold(
       appBar: AppBar(
         title: const Text('Picture Scanner'),
@@ -276,14 +297,23 @@ class _PictureScannerState extends State<PictureScanner> {
         // ],
       ),
       body: _imageFile == null
-          ? GestureDetector(onDoubleTap: () => _getAndScanImage.call())
+          // ? GestureDetector(onDoubleTap: () => _getAndScanImage.call())
+          ? GestureDetector(
+              onDoubleTap: () => Navigator.pop(context),
+            )
           : _buildImage(),
-      floatingActionButton: ElevatedButton(
-        onPressed: () {
-          Navigator.pop(context);
-        },
-        child: Text("ย้อนกลับ"),
-      ),
+      // floatingActionButton: ElevatedButton(
+      //   onPressed: () {
+      //     Navigator.pop(context);
+      //   },
+      //   child: Text("ย้อนกลับ"),
+      // ),
+      // floatingActionButton: GestureDetector(
+      //   onLongPress: () {
+      //     Navigator.pop(context);
+      //   },
+      //   child: Text("ย้อนกลับ"),
+      // ),
     );
 
     // return Scaffold(
