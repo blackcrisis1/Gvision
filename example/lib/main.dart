@@ -42,7 +42,7 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
   CameraController controller;
   String imagePath;
 
-  //-------------------------------- TextToSpeech
+  //-------------------------------- TextToSpeech-
   FlutterTts flutterTts = new FlutterTts();
   String language = "th-TH";
   double volume = 1.0;

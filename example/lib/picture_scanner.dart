@@ -21,7 +21,7 @@ class PictureScanner extends StatefulWidget {
 }
 
 class _PictureScannerState extends State<PictureScanner> {
-  //-------------------------------- TextToSpeech
+  //-------------------------------- TextToSpeech-
   FlutterTts flutterTts = new FlutterTts();
   String language = "th-TH";
   double volume = 1.0;
