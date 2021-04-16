@@ -95,9 +95,6 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
   Widget build(BuildContext context) {
     return Scaffold(
       key: _scaffoldKey,
-      appBar: AppBar(
-        title: const Text('Camera example'),
-      ),
       body: Center(
         child: GestureDetector(
           onDoubleTap: controller != null &&
@@ -296,6 +293,7 @@ class CameraApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: CameraExampleHome(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

@@ -225,7 +225,7 @@ class _PictureScannerState extends State<PictureScanner> {
   // }
 
   Widget _buildImage() {
-    _speak("แตะหน้าจอสองครั้งเพื่อย้อนกลับ");
+    //_speak("แตะหน้าจอสองครั้งเพื่อย้อนกลับ");
     return GestureDetector(
       onDoubleTap: () => Navigator.pop(context),
       child: Container(
@@ -253,10 +253,9 @@ class _PictureScannerState extends State<PictureScanner> {
 
   @override
   Widget build(BuildContext context) {
-    _getAndScanImage.call();
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Picture Scanner'),
+        title: const Text('ผลลัพธ์การสแกน'),
         // actions: <Widget>[
         //   PopupMenuButton<Detector>(
         //     onSelected: (Detector result) {
@@ -298,9 +297,10 @@ class _PictureScannerState extends State<PictureScanner> {
       ),
       body: _imageFile == null
           // ? GestureDetector(onDoubleTap: () => _getAndScanImage.call())
-          ? GestureDetector(
-              onDoubleTap: () => Navigator.pop(context),
-            )
+          ? _getAndScanImage.call()
+          // ? GestureDetector(
+          //     onDoubleTap: () => Navigator.pop(context),
+          //   )
           : _buildImage(),
       // floatingActionButton: ElevatedButton(
       //   onPressed: () {
